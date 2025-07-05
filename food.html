@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Why people choose us!</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 20px;
+                background-color: white;
+            }
+            .cook{
+                display: flex;
+                gap:40px;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                padding: 40px;
+                border-radius:10px ;
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+            }
+            .cook img{
+                width: 300px;
+                border-radius: 10px;;
+            }
+            .text{
+                max-width: 500px;
+            }
+            .text h2{
+                font-size: 24px;
+                margin-bottom: 20px;
+                color: #222;
+            }
+            .text-content{
+                margin-bottom: 20px;
+            }
+            .text-content h3{
+                font-size: 15px;
+                margin-bottom: 7px;
+                color: #333;
+            }
+            .text-content p{
+                font-size: 14px;
+                color: #555;
+                line-height: 1.5;
+            }
+            @media(max-width:700px){
+                .cook{
+                    flex-direction: column;
+                    text-align: center;
+                }
+                .text{
+                    max-width: 100%;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <section class="cook">
+        <img src="left.png" alt="food">
+        <div class="text">
+            <h2>why people choose us?</h2>
+            <div class="text-content">
+                 <h3>🚚conveninent and reliable</h3>
+                 <p> whether you dine in, take out ,or order delivery, our service is convenient, fast, and reliable, making mealtime hassle-free</p>
+
+            </div>
+        <div class="text-content">
+            <h3>📙variety of Options</h3>
+            <p>From hearty meals to light snacks, we offer a wide range of options to suit every taste and craving</p>
+            
+        </div>
+        <div class="text-content">
+            <h3> 🍔Eat Burger</h3>
+            <p> our burgers are grilled to perfection , with juciy patties and flavorful toppings that make every bite a delicious experience</p>
+
+        </div>
+        </div>
+        </section>
+    </body>
+</html>
